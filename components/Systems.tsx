@@ -22,7 +22,7 @@ export default function Systems() {
     },
     {
       category: 'Video Systems',
-      systems: ['Hidden video walls'],
+      systems: ['Hidden video walls', 'LG Electronics'],
     },
     {
       category: 'Networking',

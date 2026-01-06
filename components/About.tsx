@@ -29,6 +29,11 @@ export default function About() {
       description:
         'As a small business, we focus on personalized service tailored to your unique needs.',
     },
+    {
+      title: 'Unbiased Expertise',
+      description:
+        'We research and test all the latest innovations in home tech to provide you with the best recommendations. We do not accept sponsorship deals and only use products we truly believe in.',
+    },
   ];
 
   return (

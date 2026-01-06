@@ -1,3 +1,5 @@
+import Link from 'next/link';
+
 export default function Footer() {
   return (
     <footer className="bg-slate-950 text-slate-400 py-12">
@@ -28,6 +30,11 @@ export default function Footer() {
               <li>Home Automation</li>
               <li>Smart Home Security</li>
               <li>Custom Installation</li>
+              <li className="pt-2">
+                <Link href="/team" className="hover:text-white transition-colors">
+                  Meet the Team →
+                </Link>
+              </li>
             </ul>
           </div>
         </div>
