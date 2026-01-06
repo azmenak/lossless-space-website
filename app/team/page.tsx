@@ -54,7 +54,7 @@ export default function Team() {
 
             <div className="bg-white rounded-xl p-8 md:p-12 shadow-lg mb-12">
               <h2 className="text-3xl font-bold text-slate-900 mb-8 text-center">The Team</h2>
-              <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-8">
+              <div className="grid md:grid-cols-2 gap-8">
                 <div className="bg-slate-50 p-6 rounded-lg">
                   <h3 className="text-2xl font-bold text-slate-900 mb-2">Adam Zmenak</h3>
                   <p className="text-slate-600 font-semibold mb-4">Founder & Technologist</p>
