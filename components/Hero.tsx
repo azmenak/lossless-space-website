@@ -10,7 +10,7 @@ export default function Hero() {
             Ultra High-End Audio & Home Automation Systems
           </p>
           <p className="text-lg md:text-xl text-slate-400 mb-12 max-w-4xl mx-auto leading-relaxed">
-            We specialize in ultra high-end audio solutions that seamlessly blend into your home's aesthetic.
+            We specialize in ultra high-end audio solutions that seamlessly blend into your home&apos;s aesthetic.
             Creating truly immersive experiences with custom-built speakers using B&C drivers, Purifi woofers,
             and Powersoft amplifiers and transducers that disappear into the background of your home.
           </p>

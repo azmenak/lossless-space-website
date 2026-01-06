@@ -8,7 +8,7 @@ export default function AboutUs() {
               About Us
             </h2>
             <p className="text-xl text-slate-300 leading-relaxed">
-              Since 2020, we've been providing expert consulting and installation services for
+              Since 2020, we&apos;ve been providing expert consulting and installation services for
               ultra high-end audio and home automation systems throughout the Las Vegas area.
             </p>
           </div>
@@ -17,8 +17,8 @@ export default function AboutUs() {
             <div className="bg-slate-700/50 p-8 rounded-xl backdrop-blur">
               <h3 className="text-2xl font-bold mb-4">Personalized Service</h3>
               <p className="text-slate-300 leading-relaxed">
-                As a boutique firm, we provide truly personalized service tailored to each client's
-                unique needs and vision. We're not just installers—we're partners in creating your
+                As a boutique firm, we provide truly personalized service tailored to each client&apos;s
+                unique needs and vision. We&apos;re not just installers—we&apos;re partners in creating your
                 perfect home environment.
               </p>
             </div>

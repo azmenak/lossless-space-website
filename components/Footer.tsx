@@ -6,7 +6,7 @@ export default function Footer() {
           <div>
             <h3 className="text-white text-lg font-bold mb-4">Lossless Home Solutions</h3>
             <p className="text-sm leading-relaxed">
-              Ultra high-end audio solutions and home automation systems that seamlessly blend into your home's aesthetic.
+              Ultra high-end audio solutions and home automation systems that seamlessly blend into your home&apos;s aesthetic.
             </p>
           </div>
 

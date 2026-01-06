@@ -129,7 +129,7 @@ export default function Contact() {
 
             {status === 'success' && (
               <p className="text-green-400 text-center">
-                Thank you! We'll get back to you soon.
+                Thank you! We&apos;ll get back to you soon.
               </p>
             )}
 
