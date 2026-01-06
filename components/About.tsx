@@ -29,11 +29,6 @@ export default function About() {
       description:
         'As a small business, we focus on personalized service tailored to your unique needs.',
     },
-    {
-      title: 'Unbiased Expertise',
-      description:
-        'We research and test all the latest innovations in home tech to provide you with the best recommendations. We do not accept sponsorship deals and only use products we truly believe in.',
-    },
   ];
 
   return (
@@ -47,6 +42,18 @@ export default function About() {
             We blend cutting-edge technology with seamless design to create experiences that enhance
             your home.
           </p>
+        </div>
+
+        {/* Unbiased Expertise Callout */}
+        <div className="max-w-4xl mx-auto mb-12">
+          <div className="bg-gradient-to-br from-slate-800 to-slate-900 p-8 md:p-10 rounded-xl shadow-xl text-white">
+            <h3 className="text-2xl font-bold mb-4 text-center">Unbiased Expertise</h3>
+            <p className="text-slate-200 leading-relaxed text-center text-lg">
+              We research and test all the latest innovations in home tech to provide you with the
+              best recommendations. We do not accept sponsorship deals and only use products we
+              truly believe in.
+            </p>
+          </div>
         </div>
 
         <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
