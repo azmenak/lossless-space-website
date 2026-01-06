@@ -38,7 +38,8 @@ export default function Systems() {
             Systems We Work With
           </h2>
           <p className="text-xl text-slate-600 max-w-3xl mx-auto">
-            We integrate with industry-leading platforms and technologies to deliver the best experience.
+            We integrate with industry-leading platforms and technologies to deliver the best
+            experience.
           </p>
         </div>
 

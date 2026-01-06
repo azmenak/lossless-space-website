@@ -76,6 +76,42 @@ Example integration options:
 - [SendGrid](https://sendgrid.com/) - Popular email service
 - [Nodemailer](https://nodemailer.com/) - SMTP solution
 
+## Code Quality
+
+### Automatic Formatting and Linting
+
+This project includes a PostToolUse hook that automatically runs ESLint and Prettier on edited files. The hook is configured in `.claude/settings.json` and will:
+
+- Run ESLint with `--fix` to automatically fix linting issues
+- Format code with Prettier for consistent styling
+- Only process TypeScript/JavaScript files (`.ts`, `.tsx`, `.js`, `.jsx`)
+
+The hook runs automatically when files are edited through Claude Code.
+
+### Manual Formatting
+
+You can also format and lint files manually:
+
+```bash
+# Format all files with Prettier
+npx prettier --write "components/**/*.{ts,tsx}" "app/**/*.{ts,tsx}"
+
+# Run ESLint with fix
+npx eslint --fix "components/**/*.{ts,tsx}" "app/**/*.{ts,tsx}"
+
+# Check formatting without making changes
+npx prettier --check .
+```
+
+### Prettier Configuration
+
+Prettier settings are defined in `.prettierrc.json`:
+- Single quotes for strings
+- Semicolons enabled
+- 2 space indentation
+- 100 character line width
+- Trailing commas in ES5-compatible locations
+
 ## Customization
 
 ### Colors

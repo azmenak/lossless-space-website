@@ -2,11 +2,13 @@ export default function Services() {
   const services = [
     {
       title: 'Home Re-wiring',
-      description: 'Both electrical and low voltage infrastructure for comprehensive smart home integration.',
+      description:
+        'Both electrical and low voltage infrastructure for comprehensive smart home integration.',
     },
     {
       title: 'Enterprise Networking',
-      description: 'Professional networking solutions for properties of any size, from single homes to large estates.',
+      description:
+        'Professional networking solutions for properties of any size, from single homes to large estates.',
     },
     {
       title: 'AI-Powered Security',
@@ -14,11 +16,13 @@ export default function Services() {
     },
     {
       title: 'Advanced Presence Detection',
-      description: 'mmWave radar-based presence detection and automation triggers for seamless experiences.',
+      description:
+        'mmWave radar-based presence detection and automation triggers for seamless experiences.',
     },
     {
       title: 'Smart Automation',
-      description: 'Simple and advanced home automation systems to save energy and improve comfort.',
+      description:
+        'Simple and advanced home automation systems to save energy and improve comfort.',
     },
     {
       title: 'Ongoing Support',
@@ -26,7 +30,8 @@ export default function Services() {
     },
     {
       title: 'Acoustic Treatment',
-      description: 'Professional acoustic treatment and sound insulation for optimal audio quality.',
+      description:
+        'Professional acoustic treatment and sound insulation for optimal audio quality.',
     },
     {
       title: 'Custom 3D Parts',
@@ -46,11 +51,10 @@ export default function Services() {
     <section id="services" className="py-20 bg-slate-50">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="text-center mb-16">
-          <h2 className="text-4xl md:text-5xl font-bold text-slate-900 mb-4">
-            Our Services
-          </h2>
+          <h2 className="text-4xl md:text-5xl font-bold text-slate-900 mb-4">Our Services</h2>
           <p className="text-xl text-slate-600 max-w-3xl mx-auto">
-            Comprehensive solutions for every aspect of your high-end audio and home automation needs.
+            Comprehensive solutions for every aspect of your high-end audio and home automation
+            needs.
           </p>
         </div>
 

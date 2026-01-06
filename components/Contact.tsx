@@ -46,9 +46,7 @@ export default function Contact() {
     <section id="contact" className="py-20 bg-slate-900 text-white">
       <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="text-center mb-12">
-          <h2 className="text-4xl md:text-5xl font-bold mb-4">
-            Get In Touch
-          </h2>
+          <h2 className="text-4xl md:text-5xl font-bold mb-4">Get In Touch</h2>
           <p className="text-xl text-slate-300">
             Ready to transform your home? Contact us for a consultation.
           </p>
@@ -135,7 +133,8 @@ export default function Contact() {
 
             {status === 'error' && (
               <p className="text-red-400 text-center">
-                Sorry, there was an error sending your message. Please email us directly at info@lossless.space
+                Sorry, there was an error sending your message. Please email us directly at
+                info@lossless.space
               </p>
             )}
           </form>
